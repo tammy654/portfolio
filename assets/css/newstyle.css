@@ -435,7 +435,7 @@
     font-weight: 800;
     font-family: Tahoma;
     padding-left: 0;
-    margin-bottom: clamp(5px, 1vw, 8px);
+    margin-bottom: clamp(5px, 1vw, 5px);
 }
 .second .sub .tabs .row .box  #details{
     font-family: Tahoma;
@@ -740,7 +740,6 @@
     padding-right: 1%;
     margin-right:10px;
     margin-bottom: 10px;
-
 }
 .fourth .sub .tabs .notes .tile:hover{
     
@@ -775,7 +774,7 @@
     font-size: clamp(14px, 4vw, 20px);
     font-weight: 800;
     font-family: Tahoma;
-    margin-bottom: clamp(5px, 1vw, 5px);
+    margin-bottom: clamp(1px, 1vw, 1px);
 }
 .fourth .sub .tabs .notes .tile #tiny-box #details{
     font-family: Tahoma;
