@@ -613,7 +613,7 @@
     font-family: Tahoma;
 }
 .third .sub .tabs .notes .tag #answer{
-    color: #434343;
+    color: #000000;
     font-size: clamp(10px, 3.5vw, 16px);
     font-weight: 100;
     font-family: Tahoma;
@@ -1413,8 +1413,9 @@
     }
     .btn1{
         color: white;
-        font-size: clamp(10px, 4vw, 18px);
+        font-size: clamp(12px, 4vw, 16px);
         font-family: Tahoma;
+	    font-weight:700;
         background: #FF8E00;
         padding: clamp(5px, 2vw, 10px);
         padding-left:clamp(10px, 2vw, 20px);
