@@ -239,6 +239,7 @@
     height: 500px;
     border-radius: 100px;
     opacity: 0;
+	display:none;
     position: absolute;
     top: 10vh;
     bottom: 10vh;
@@ -261,6 +262,7 @@
     margin-right:auto;
     margin-left: 150px;
     opacity: 0;
+	disply:none;
     transition: all .4s ease-in-out 0s ;
     cursor: pointer;
     text-decoration: none;
@@ -272,11 +274,13 @@
     cursor: pointer;
 }
 .first .sub .hero-image:hover .circle2{
+	display:block;
     left:15vh;
     bottom:-5vh ;
     opacity: 100;
 }
 .first .sub .hero-image:hover .circle2 a{
+	display:block;
     opacity: 100;
 }
 .first .sub .hero-image img{
