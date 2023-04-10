@@ -238,7 +238,7 @@
     width: 500px;
     height: 500px;
     border-radius: 100px;
-    opacity: 100;
+    opacity: 0;
     position: absolute;
     top: 10vh;
     bottom: 10vh;
