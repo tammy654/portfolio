@@ -129,7 +129,7 @@
     font-family: Tahoma;
     font-weight: 100;
     background: #FF8E00;
-    padding: clamp(5px, 2vw, 5px);
+    padding: clamp(4px, 2vw, 4px);
     padding-left:clamp(10px, 2vw, 20px);
     padding-right:clamp(10px, 2vw, 20px);
     border-radius: 30px;
@@ -239,7 +239,6 @@
     height: 500px;
     border-radius: 100px;
     opacity: 0;
-	display:none;
     position: absolute;
     top: 10vh;
     bottom: 10vh;
@@ -262,7 +261,6 @@
     margin-right:auto;
     margin-left: 150px;
     opacity: 0;
-	disply:none;
     transition: all .4s ease-in-out 0s ;
     cursor: pointer;
     text-decoration: none;
@@ -274,13 +272,11 @@
     cursor: pointer;
 }
 .first .sub .hero-image:hover .circle2{
-	display:block;
     left:15vh;
     bottom:-5vh ;
     opacity: 100;
 }
 .first .sub .hero-image:hover .circle2 a{
-	display:block;
     opacity: 100;
 }
 .first .sub .hero-image img{
@@ -517,7 +513,7 @@
     display:flex;
     flex-direction: row;
     width:100%;
-    height: 80%;
+    height:90%;
     padding: 0px;
     position: relative;
     margin: auto;
@@ -534,7 +530,8 @@
     box-shadow: 5px 5px 5px #40404424;
     border-radius: 10px;
     margin: auto;
-    padding:50px;
+    padding:30px;
+    padding-left:50px;
     text-align: justify;
 }
 .third .sub .tabs .image{
@@ -581,7 +578,7 @@
     line-height: 25px;
     color: #000000;
     position:relative;
-    margin-bottom:clamp(18px, 2vw, 30px);
+    margin-bottom:clamp(18px, 2vw, 20px);
 }
 .third .sub .tabs .notes .tag{
     width: 100%;
@@ -604,7 +601,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: clamp(10px, 4vw, 20px);
+    margin-bottom: clamp(10px, 4vw, 10px);
 }
 .third .sub .tabs .notes .tag  #tagline{
     color: #000000;
@@ -1413,9 +1410,9 @@
     }
     .btn1{
         color: white;
-        font-size: clamp(12px, 4vw, 16px);
+        font-size: clamp(10px, 4vw, 16px);
         font-family: Tahoma;
-	    font-weight:700;
+        font-weight:700;
         background: #FF8E00;
         padding: clamp(5px, 2vw, 10px);
         padding-left:clamp(10px, 2vw, 20px);
@@ -1426,7 +1423,7 @@
         transition: all 0.3s ease-in-out 0s;
     }
     .first{
-        height:95vh;
+        height:90vh;
         text-align: center;
     }
     .first .sub{
@@ -1472,7 +1469,7 @@
         height: 300px;
     }
     .first .sub .notes{
-        margin-top: 5%;
+        margin-top: 1%;
         width: 90%;
         height:50%;
         align-items: center;
@@ -1556,7 +1553,7 @@
         flex-direction: column;
         width:100%;
         height: 90%;
-        margin-top: -50px;
+        margin-top: 0px;
     }
     .third .sub .tabs .image{
         width:80%;
@@ -1568,7 +1565,7 @@
     }
     .third .sub .tabs .notes{
         width: 80%;
-        height:55%;
+        height:65%;
         display:flex;
         flex-direction: column;
         /* background-color: rgb(240, 148, 240); */
