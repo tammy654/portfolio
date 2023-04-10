@@ -228,7 +228,6 @@
     border-radius: 100px;
     position: relative;
     left:0px;
-    rotate: 45deg;
     background-color: #f6f6f6;
     box-shadow: 1px 2px 5px #40404418;
     margin: auto;
@@ -239,8 +238,7 @@
     width: 500px;
     height: 500px;
     border-radius: 100px;
-    opacity: 0;
-    rotate:-45deg;
+    opacity: 100;
     position: absolute;
     top: 10vh;
     bottom: 10vh;
@@ -275,6 +273,7 @@
 }
 .first .sub .hero-image:hover .circle2{
     left:15vh;
+    bottom:-5vh ;
     opacity: 100;
 }
 .first .sub .hero-image:hover .circle2 a{
@@ -1443,6 +1442,11 @@
         border-radius: 70px;
     }
     .first .sub .hero-image .circle2{
+        position: absolute;
+        top: 10vh;
+        bottom: 10vh;
+        left:5vh;
+        right: 10vh;
         width: 300px;
         height: 300px;
         border-radius: 70px;
@@ -1457,6 +1461,7 @@
         height: 300px;
     }
     .first .sub .hero-image:hover .circle2{
+        bottom:-3vh ;
         left:9vh;
         width: 300px;
         height: 300px;
