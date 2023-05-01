@@ -265,7 +265,7 @@
     cursor: pointer;
     text-decoration: none;
 }
-.first .sub .hero-image:hover .circle{
+/* .first .sub .hero-image:hover .circle{
     left:-8vh;
     background-color: linear-gradient(#ff8e00,  green);
     margin: auto;
@@ -278,7 +278,7 @@
 }
 .first .sub .hero-image:hover .circle2 a{
     opacity: 100;
-}
+} */
 .first .sub .hero-image img{
     width:100%;
     height:100%;
@@ -1456,7 +1456,7 @@
         bottom:-115px;
         margin-left:65px;
     }
-    .first .sub .hero-image:hover .circle{
+/*     .first .sub .hero-image:hover .circle{
         left:-40px ;
         width: 300px;
         height: 300px;
@@ -1466,7 +1466,7 @@
         left:9vh;
         width: 300px;
         height: 300px;
-    }
+    } */
     .first .sub .notes{
 /*         margin-top: 1%; */
         width: 90%;
